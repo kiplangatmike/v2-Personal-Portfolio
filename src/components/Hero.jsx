@@ -4,19 +4,19 @@ const Hero = () => {
 
   return (
     <section id="home" className="overflow-hiddens">
-      <div className="min-h-[50%] relative flex md:flex-row flex-col-reverse md:items-end justify-left items-left">
+      <div className="min-h-[30%] relative flex md:flex-row flex-col-reverse md:items-end justify-left items-left">
         <div
           data-aos="slide-left"
           data-aos-delay="1200"
-          className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 by-primaryLinear bottom-0 -z-10"
+          className="absolute h-full md:w-5/12 w-8/12 top-0 right-0 by-primaryLinear bottom-0 -z-10"
         >
-          <h1 className="rotate-0 absolute top-[50%] right-[-1%] text-[#EAF2FA] ">
+          <h1 className="rotate-0 absolute top-[45%] left-[5%] text-dark_blue_2 ">
             {hero.firstName}{" "}
             <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
         </div>
 
-        <div className="pb-16 px-6 pl-40 pt-40" data-aos="fade-down">
+        <div className="pb-16 px-6 pl-60 pt-40" data-aos="fade-down">
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-center">

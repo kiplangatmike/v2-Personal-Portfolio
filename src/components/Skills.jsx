@@ -34,7 +34,7 @@ const Skills = () => {
   }
 
   return (
-    <section className="min-h-fit bg-dark_blue_2 w-full}" id="skills">
+    <section className="min-h-fit bg-dark_blue_3 w-full}" id="skills">
       <modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}

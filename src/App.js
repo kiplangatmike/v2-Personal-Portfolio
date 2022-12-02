@@ -26,9 +26,10 @@ const App = () => {
       <Navbar />
       <Hero />
       <Skills />
-      <Services />
       <Projects />
-      <Testimonials />
+      <Services />
+      
+      {/* <Testimonials /> */}
       <HireMe />
       <Contact />
       <footer className="p-3 text-center">
