@@ -34,7 +34,7 @@ const Skills = () => {
   }
 
   return (
-    <section className="min-h-fit bg-dark_blue" id="skills">
+    <section className="min-h-fit bg-dark_blue_2 w-full}" id="skills">
       <modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
@@ -65,7 +65,7 @@ const Skills = () => {
         </div> */}
       </modal>
 
-      <div className="md:container px-5 py-14">
+      <div className="md:container pl-8 px-5 py-14">
         <h2 className="title" data-aos="fade-down">
           {skills.title}
         </h2>

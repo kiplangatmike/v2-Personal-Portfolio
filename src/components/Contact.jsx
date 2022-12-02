@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-dark_primary text-white" id="contact">
+    <section className="bg-dark_blue_3 text-white" id="contact">
       <Toaster />
       <div className="md:container px-5 py-14">
         <h2 className="title !text-white" data-aos="fade-down">
@@ -82,7 +82,7 @@ const Contact = () => {
                 className="flex items-center gap-2"
               >
                 <h4 className="text-white">{createElement(content.icon)}</h4>
-                <a className="font-Poppins" href={content.link} target="_blank">
+                <a className="font-SFMono" href={content.link} target="_blank">
                   {content.text}
                 </a>
               </div>

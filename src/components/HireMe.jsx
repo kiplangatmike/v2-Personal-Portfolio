@@ -4,7 +4,7 @@ const Hireme = () => {
   const { Hireme } = content;
 
   return (
-    <section className="bg-bg_light_primary">
+    <section className="bg-dark_blue_2">
       <div className="md:container px-5 pt-14">
         <h2 className="title" data-aos="fade-down">
           {Hireme.title}
@@ -31,9 +31,9 @@ const Hireme = () => {
             className="border-2 border-dark_primary max-w-sm
            p-6 shadow-sm rounded-xl rounded-br-[8rem] sm:min-w-[22rem]"
           >
-            <p className="leading-7">{Hireme.para}</p>
+            <p className="leading-7 ">{Hireme.para}</p>
             <br />
-            <button className="btn bg-dark_primary text-white">
+            <button className="btn bg-dark_primary text-white ">
               {Hireme.btnText}
             </button>
           </div>

@@ -1,5 +1,7 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
+import Hero_person1 from "./assets/images/Hero/mike.jpg";
+
 
 import js from "./assets/images/Skills/js.png";
 import figma from "./assets/images/Skills/figma.png";
@@ -61,7 +63,7 @@ export const content = {
     firstName: "WEB",
     LastName: "DEVELOPER",
     btnText: "Resume",
-    image: Hero_person,
+    image: Hero_person1,
     hero_content: [
       {
         count: "2+",

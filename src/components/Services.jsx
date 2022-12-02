@@ -5,7 +5,7 @@ import { content } from "../Content";
 const Services = () => {
   const { services } = content;
   return (
-    <section className="min-h-fit bg-grey_blue" id="services">
+    <section className="min-h-fit bg-dark_blue_3" id="services">
       <div className="md:container px-5 py-14">
         <h2 className="title" data-aos="fade-down">
           {services.title}
