@@ -17,8 +17,8 @@ const Navbar = () => {
         <HiMenuAlt2 size={34} />
       </div>
       <nav
-        className={`fixed z-[999] flex items-center gap-12 bg-slate-200/60 px-6 py-3 backdrop-blur-md rounded text-dark_primary duration-300 ${
-          showMenu ? "bottom-10" : "bottom-[-100%]"
+        className={`fixed z-[999] top-10 flex items-center gap-6 bg-slate-200/60 px-6 py-3 backdrop-blur-md rounded text-dark_primary duration-300 ${
+          showMenu ? "top-8" : "top-[-100%]"
         }`}
       >
         {nav.map((item, i) => (

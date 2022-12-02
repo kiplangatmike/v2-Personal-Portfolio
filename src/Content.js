@@ -18,11 +18,6 @@ import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.png";
 import person_project from "./assets/images/Projects/person.png";
 
-import avatar1 from "./assets/images/Testimonials/avatar1.png";
-import avatar2 from "./assets/images/Testimonials/avatar2.png";
-import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
-
 import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
@@ -46,13 +41,14 @@ export const content = {
       icon: BiUser,
     },
     {
+      link: "#Projects2",
+      icon: RiProjectorLine,
+    },
+    {
       link: "#services",
       icon: RiServiceLine,
     },
-    {
-      link: "#projects",
-      icon: RiProjectorLine,
-    },
+
     {
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
@@ -66,11 +62,11 @@ export const content = {
     image: Hero_person1,
     hero_content: [
       {
-        count: "2+",
-        text: "Years of Experinse in Web development",
+        count: "</",
+        text: "Years of Experience in Web development",
       },
       {
-        count: "20+",
+        count: "/>",
         text: "Projects Worked in my career",
       },
     ],
@@ -105,7 +101,29 @@ export const content = {
         logo: figma,
       },
     ],
-    icon: MdArrowForward,
+    // icon: MdArrowForward,
+  },
+  Projects: {
+    title: "Projects",
+    subtitle: "WHAT I HAVE WORKED ON",
+    service_content: [
+      {
+        title: "Task Tracker",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: services_logo1,
+      },
+      {
+        title: "Find Your House",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: services_logo3,
+      },
+      {
+        title: "Reddit Clone",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: services_logo2,
+      },
+
+    ],
   },
   services: {
     title: "Services",
@@ -117,18 +135,19 @@ export const content = {
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
-      },
-      {
         title: "Mobile App Development",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo3,
       },
+      {
+        title: "ui Designing",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: services_logo2,
+      },
+
     ],
   },
-  Projects: {
+  Projects2: {
     title: "Projects",
     subtitle: "MY CREATION",
     image: person_project,
@@ -161,7 +180,7 @@ export const content = {
     btnText: "Hire Me",
   },
   Contact: {
-    title: "Contect Me",
+    title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {

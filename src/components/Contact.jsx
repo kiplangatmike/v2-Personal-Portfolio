@@ -31,13 +31,13 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-dark_blue_3 text-white" id="contact">
+    <section className="bg-dark_blue_2 text-white" id="contact">
       <Toaster />
       <div className="md:container px-5 py-14">
         <h2 className="title !text-white" data-aos="fade-down">
           {Contact.title}
         </h2>
-        <h4 className="subtitle" data-aos="zoom-out-left">
+        <h4 className="subtitle text-white" data-aos="zoom-out-left">
           {Contact.subtitle}
         </h4>
         <br />
