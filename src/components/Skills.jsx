@@ -1,8 +1,6 @@
 import { createElement, useState } from "react";
 import { content } from "../Content";
 
-import Modal from "react-modal";
-
 const customStyles = {
   content: {
     top: "50%",
@@ -18,34 +16,23 @@ const customStyles = {
     padding: "2rem",
   },
 };
-Modal.setAppElement("#root");
 
 const Skills = () => {
   const { skills } = content;
-  const [modalIsOpen, setIsOpen] = useState(false);
-  const [selectskill, setSelectSkill] = useState(null);
-
-  function openModal() {
-    setIsOpen(true);
-  }
-
-  function closeModal() {
-    setIsOpen(false);
-  }
 
   return (
     <section className="min-h-fit bg-dark_blue_3 w-full}" id="skills">
-      <modal
+      {/* <modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         style={customStyles}
-      >
-        {/* <div className="flex items-center gap-2">
+      > */}
+      {/* <div className="flex items-center gap-2">
           <img className="h-10" src={selectskill?.logo} alt="..." />
           <h6>{selectskill?.name}</h6>
         </div>
         <br /> */}
-        {/* <ul className="list-decimal px-4 font-Poppins sm:text text-xs !leading-7">
+      {/* <ul className="list-decimal px-4 font-Poppins sm:text text-xs !leading-7">
           <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
           <li>Lorem ipsum dolor sit, ame.</li>
           <li>Lorem ipsum dolor sit, amet consectetur</li>
@@ -57,13 +44,13 @@ const Skills = () => {
             beatae quos rem.
           </li>
         </ul> */}
-        {/* <br />
+      {/* <br />
         <div className="flex justify-end">
           <button className="btn" onClick={closeModal}>
             close
           </button>
         </div> */}
-      </modal>
+      {/* </modal> */}
 
       <div className="md:container pl-8 px-5 py-14 ">
         <h2 className="title flex items-center " data-aos="fade-down">
@@ -90,16 +77,7 @@ const Skills = () => {
               </div>
               <div>
                 <h6>{skill.name}</h6>
-                <p className="italic">{skill.para}</p>
-                {/* <div
-                  onClick={() => {
-                    setSelectSkill(skill);
-                    openModal();
-                  }}
-                  className="text-xl absolute top-3 right-3"
-                >
-                  {createElement(skills.icon)}
-                </div> */}
+                {/* <p className="italic">{skill.para}</p> */}
               </div>
             </div>
           ))}

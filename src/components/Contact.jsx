@@ -54,22 +54,22 @@ const Contact = () => {
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1.63}$"
               placeholder="Name"
               required
-              className="border border-slate-600  p-3 rounded"
+              className="border placeholder-white border-white  p-3 rounded"
             />
             <input
               type="email"
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1.63}$"
-              placeholder="Email Id"
+              placeholder="Email Id "
               required
-              className="border border-slate-600  p-3 rounded"
+              className="border border-white placeholder-white p-3 rounded"
             />
             <textarea
               name="message"
               placeholder="Message"
-              className="border border-slate-600 p-3 rounded"
+              className="border border-white placeholder-white p-3 rounded"
             ></textarea>
-            <button className="btn self-start bg-white text-dark_primary">
+            <button className="btn self-start bg-white text-dark_primary hover:bg-dark_blue hover:text-white">
               Submit
             </button>
           </form>

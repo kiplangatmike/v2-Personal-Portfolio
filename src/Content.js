@@ -1,7 +1,6 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
-import Hero_person1 from "./assets/images/Hero/mike.jpg";
-
+// import Hero_person1 from "./assets/images/Hero/profile.mike.jpg";
 
 import js from "./assets/images/Skills/js.png";
 import figma from "./assets/images/Skills/figma.png";
@@ -59,7 +58,7 @@ export const content = {
     firstName: "WEB",
     LastName: "DEVELOPER",
     btnText: "Resume",
-    image: Hero_person1,
+    // image: Hero_person1,
     hero_content: [
       {
         count: "</",
@@ -101,7 +100,6 @@ export const content = {
         logo: figma,
       },
     ],
-    // icon: MdArrowForward,
   },
   Projects: {
     title: "Projects",
@@ -114,16 +112,16 @@ export const content = {
       },
       {
         title: "Find Your House",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "This is an application that links agents and home owners individuals looking for house to rent or buy.",
         logo: services_logo3,
       },
       {
         title: "Reddit Clone",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "A simple reddit clone app made of Node JS and React",
         logo: services_logo2,
       },
-
     ],
+    icon: MdArrowForward,
   },
   services: {
     title: "Services",
@@ -144,7 +142,6 @@ export const content = {
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo2,
       },
-
     ],
   },
   Projects2: {
@@ -171,32 +168,32 @@ export const content = {
     subtitle: "MY CLIENT REVIEWS",
     testimonials_content: [],
   },
-  Hireme: {
-    title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
-    image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-    btnText: "Hire Me",
-  },
+  // Hireme: {
+  //   title: "Hire Me",
+  //   subtitle: "FOR YOUR PROJECTS",
+  //   image1: Hireme_person,
+  //   image2: Hireme_person2,
+  //   para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+  //   btnText: "Hire Me",
+  // },
   Contact: {
     title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "kiplangatmike1938@gmail.com",
         icon: GrMail,
         link: "mailto:codeaprogram@gmail.com",
       },
       {
-        text: "+91 1234 56778",
-        icon: MdCall,
-        link: "https://wa.me/1234567890",
+        text: "nyolmo_mike",
+        icon: BsInstagram,
+        link: "https://www.instagram.com/nyolmo_mike/",
       },
       {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        text: "+254 713 336 340",
+        icon: MdCall,
+        link: "https://wa.me/1234567890",
       },
     ],
   },
