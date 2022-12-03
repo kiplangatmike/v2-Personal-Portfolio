@@ -63,11 +63,11 @@ export const content = {
     hero_content: [
       {
         count: "</",
-        text: "Years of Experience in Web development",
+        text: "I'm a Software Engineer specialised in front-end Development...",
       },
       {
         count: "/>",
-        text: "Projects Worked in my career",
+        text: "I enjoy designing and bring applications to life",
       },
     ],
   },
