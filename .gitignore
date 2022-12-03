@@ -10,6 +10,7 @@
 
 # production
 /build
+/HireMe.jsx
 
 # misc
 .DS_Store

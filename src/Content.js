@@ -8,6 +8,7 @@ import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
 import c from "./assets/images/Skills/c.png";
 import tailwind from "./assets/images/Skills/tailwind-css-icon.png";
+import flutter from "./assets/images/Skills/flutter.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -21,16 +22,17 @@ import { GrMail } from "react-icons/gr";
 import { FiGithub } from "react-icons/fi";
 import { MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
-import { TbSmartHome } from "react-icons/tb";
+import { FiHome } from "react-icons/fi";
 import { BiUser } from "react-icons/bi";
-import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { RiServiceLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 
 export const content = {
   nav: [
     {
       link: "#home",
-      icon: TbSmartHome,
+      icon: FiHome,
     },
     {
       link: "#skills",
@@ -38,7 +40,7 @@ export const content = {
     },
     {
       link: "#projects",
-      icon: RiProjectorLine,
+      icon: AiOutlineFundProjectionScreen,
     },
     {
       link: "#services",
@@ -96,6 +98,10 @@ export const content = {
         logo: tailwind,
       },
       {
+        name: "Flutter",
+        logo: flutter,
+      },
+      {
         name: "Figma",
         logo: figma,
       },
@@ -108,7 +114,7 @@ export const content = {
     service_content: [
       {
         title: "Task Tracker",
-        para: "This is an application that keeos track of activities that you are doing, the ones you are done with and the ones you are yet to finish",
+        para: "This is an application that keeps track of activities that you are doing, the ones you are done with and the ones you are yet to finish",
         logo: services_logo1,
       },
       {
@@ -193,7 +199,7 @@ export const content = {
       {
         text: "+254 713 336 340",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/0780323032",
       },
     ],
   },

@@ -31,16 +31,16 @@ const Projects2 = () => {
         <div>
           <div className="flex gap-5 justify-between flex-wrap group">
             {projects.service_content.map((content, i) => (
-              <div className="min-w-[14rem] duration-300 cursor-pointer rounded-xl text-center bg-bg_light_primary p-6 flex-1 group-hover:blur-sm hover:!blur-none">
+              <div className="min-w-[14rem] duration-300 cursor-pointe rounded-xl text-center bg-bg_light_primary p-6 flex-1 group-hover:blur-sm hover:!blur-none">
                 <img src={content.logo} alt="..." className="mx-auto" />
                 <h6 className="my-3">{content.title}</h6>
                 <p className="leading-7">{content.para}</p>
                 <div
-                  onClick={() => {
+                  onClick={() => { window.open("https://github.com/kiplangatmike?tab=repositories", "_blank");
                     setSelectSkill(projects);
                     openModal();
                   }}
-                  className="text-xl absolute bottom-5 right-5"
+                  className="text-xl absolute top-4  left-4 bg-dark_blue p-1 rounded hover:scale-125 text-white"
                 >
                   {createElement(projects.icon)}
                 </div>

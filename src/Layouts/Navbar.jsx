@@ -27,7 +27,7 @@ const Navbar = () => {
             href={item.link}
             onClick={() => setActive(i)}
             className={`text-xl p-2.5 rounded sm:cursor-pointer
-            ${i === active && "bg-dark_blue_2 text-white"}`}
+            ${i === active && "bg-dark_blue text-white"}`}
           >
             {createElement(item.icon)}
           </a>
