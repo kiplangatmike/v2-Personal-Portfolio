@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { content } from "../Content";
-import { HiMenuAlt2 } from "react-icons/hi";
+import { RiMenu4Fill } from "react-icons/ri";
 import { createElement } from "react";
 
 const Navbar = () => {
@@ -11,10 +11,10 @@ const Navbar = () => {
   return (
     <div className="w-full flex justify-center">
       <div
-        className="sm: cursor-pointer fixed top-10 left-10 z-[999] rounded-lg bg-white/40 p-2"
+        className="sm: cursor-pointer fixed top-10 right-8 z-[999] rounded-lg bg-dark_blue/10 p-2 "
         onClick={() => setShowMenu(!showMenu)}
       >
-        <HiMenuAlt2 size={34} />
+        <RiMenu4Fill size={34} />
       </div>
       <nav
         className={`fixed z-[999] top-10 flex items-center gap-5 bg-slate-200/60 px-5 py-3 backdrop-blur-md rounded text-dark_blue_2 duration-300 ${

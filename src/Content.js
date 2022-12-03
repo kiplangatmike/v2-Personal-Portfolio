@@ -118,7 +118,7 @@ export const content = {
         logo: services_logo1,
       },
       {
-        title: "Find Your House",
+        title: "Find Your House App",
         para: "This is an application that links agents and home owners individuals looking for house to rent or buy.",
         logo: services_logo3,
       },
