@@ -53,10 +53,10 @@ const Skills = () => {
       {/* </modal> */}
 
       <div className="md:container pl-8 px-5 py-14 ">
-        <h2 className="title flex items-center " data-aos="fade-down">
+        <h2 className="title flex items-center " data-aos="zoom-in">
           {skills.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h4 className="subtitle" data-aos="zoom-in">
           {skills.subtitle}
         </h4>
         <br />
@@ -64,7 +64,7 @@ const Skills = () => {
           {skills.skills_content.map((skill, i) => (
             <div
               key={i}
-              data-aos="fade-up"
+              data-aos="flip-down"
               data-aos-delay={i * 400}
               className="bg-white sm:cursor-pointer relative group w-full flex items-center gap-5 p-5 max-w-sm rounded-md border-0 border-slate-200"
             >

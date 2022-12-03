@@ -34,10 +34,10 @@ const Contact = () => {
     <section className="bg-dark_blue_2 text-white" id="contact">
       <Toaster />
       <div className="md:container px-5 py-14">
-        <h2 className="title !text-white" data-aos="fade-down">
+        <h2 className="title !text-white" data-aos="zoom-in">
           {Contact.title}
         </h2>
-        <h4 className="subtitle text-white" data-aos="zoom-out-left">
+        <h4 className="subtitle text-white" data-aos="zoom-in">
           {Contact.subtitle}
         </h4>
         <br />
@@ -45,7 +45,7 @@ const Contact = () => {
           <form
             ref={form}
             onSubmit={sendEmail}
-            data-aos="fade-up"
+            data-aos="zoom-out-right"
             className="flex-1 flex flex-col gap-5"
           >
             <input
@@ -77,7 +77,7 @@ const Contact = () => {
             {Contact.social_media.map((content, i) => (
               <div
                 key={i}
-                data-aos="fade-down"
+                data-aos="zoom-in-left"
                 data-aos-delay={i * 430}
                 className="flex items-center gap-2"
               >

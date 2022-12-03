@@ -1,6 +1,5 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
-// import Hero_person1 from "./assets/images/Hero/profile.mike.jpg";
 
 import js from "./assets/images/Skills/js.png";
 import figma from "./assets/images/Skills/figma.png";
@@ -13,18 +12,14 @@ import tailwind from "./assets/images/Skills/tailwind-css-icon.png";
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
-
-import project1 from "./assets/images/Projects/img1.png";
-import project2 from "./assets/images/Projects/img2.png";
-import project3 from "./assets/images/Projects/img3.png";
-import person_project from "./assets/images/Projects/person.png";
-
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+import services_logo4 from "./assets/images/Services/logo4.png";
+import services_logo5 from "./assets/images/Services/coding.png";
+import services_logo6 from "./assets/images/Services/logo6.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
+import { FiGithub } from "react-icons/fi";
+import { MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
@@ -78,48 +73,42 @@ export const content = {
     skills_content: [
       {
         name: "JavaScript",
-        para: "Lorem ipsum text  dummy",
         logo: js,
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
         logo: reactjs,
       },
       {
         name: "Python",
-        para: "Lorem ipsum text  dummy",
         logo: python,
       },
       {
         name: "Node js",
-        para: "Lorem ipsum text  dummy",
         logo: nodejs,
       },
       {
         name: "C",
-        para: "Lorem ipsum text  dummy",
         logo: c,
       },
       {
         name: "Tailwind CSS",
-        para: "Lorem ipsum text  dummy",
         logo: tailwind,
       },
       {
         name: "Figma",
-        para: "Lorem ipsum text  dummy",
         logo: figma,
       },
     ],
   },
   projects: {
     title: "Projects",
+    icon: FiGithub,
     subtitle: "PROJECTS I'VE DONE",
     service_content: [
       {
         title: "Task Tracker",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "This is an application that keeos track of activities that you are doing, the ones you are done with and the ones you are yet to finish",
         logo: services_logo1,
       },
       {
@@ -129,11 +118,10 @@ export const content = {
       },
       {
         title: "Reddit Clone",
-        para: "A simple reddit clone app made of Node JS and React",
+        para: "A simple reddit clone app made using Node JS and React",
         logo: services_logo2,
       },
     ],
-    icon: MdArrowForward,
   },
   services: {
     title: "Services",
@@ -141,18 +129,18 @@ export const content = {
     service_content: [
       {
         title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo1,
+        para: "",
+        logo: services_logo6,
       },
       {
         title: "Mobile App Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
+        para: "",
+        logo: services_logo4,
       },
       {
         title: "ui Designing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
+        para: "",
+        logo: services_logo5,
       },
     ],
   },
