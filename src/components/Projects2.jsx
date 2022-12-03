@@ -17,20 +17,20 @@ const Projects2 = () => {
   function closeModal() {
     setIsOpen(false);
   }
-  const { Projects } = content;
+  const { projects } = content;
   return (
-    <section className="min-h-fit bg-dark_blue_2" id="services">
+    <section className="min-h-fit bg-dark_blue_2" id="projects">
       <div className="md:container px-5 py-14">
         <h2 className="title" data-aos="fade-down">
-          {Projects.title}
+          {projects.title}
         </h2>
         <h4 className="subtitle" data-aos="fade-down">
-          {Projects.subtitle}
+          {projects.subtitle}
         </h4>
         <br />
         <div>
           <div className="flex gap-5 justify-between flex-wrap group">
-            {Projects.service_content.map((content, i) => (
+            {projects.service_content.map((content, i) => (
               <div className="min-w-[14rem] duration-300 cursor-pointer border-2 border-slate-200 rounded-xl text-center bg-bg_light_primary p-6 flex-1 group-hover:blur-sm hover:!blur-none">
                 <img src={content.logo} alt="..." className="mx-auto" />
                 <h6 className="my-3">{content.title}</h6>
@@ -40,12 +40,12 @@ const Projects2 = () => {
           </div>
           <div
             onClick={() => {
-              setSelectSkill(Projects);
+              setSelectSkill(projects);
               openModal();
             }}
             className="text-xl absolute top-3 right-3"
           >
-            {createElement(Projects.icon)}
+            {createElement(projects.icon)}
           </div>
         </div>
       </div>

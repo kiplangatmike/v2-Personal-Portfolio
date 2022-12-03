@@ -7,6 +7,8 @@ import figma from "./assets/images/Skills/figma.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
+import c from "./assets/images/Skills/c.png";
+import tailwind from "./assets/images/Skills/tailwind-css-icon.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -40,7 +42,7 @@ export const content = {
       icon: BiUser,
     },
     {
-      link: "#Projects2",
+      link: "#projects",
       icon: RiProjectorLine,
     },
     {
@@ -55,7 +57,7 @@ export const content = {
   ],
   hero: {
     title: "Mike Kiplangat",
-    firstName: "WEB",
+    firstName: "FRONT-END",
     LastName: "DEVELOPER",
     btnText: "Resume",
     // image: Hero_person1,
@@ -72,7 +74,7 @@ export const content = {
   },
   skills: {
     title: "Skills",
-    subtitle: "MY TOP SKILLS",
+    subtitle: "MY SKILLS",
     skills_content: [
       {
         name: "JavaScript",
@@ -95,15 +97,25 @@ export const content = {
         logo: nodejs,
       },
       {
+        name: "C",
+        para: "Lorem ipsum text  dummy",
+        logo: c,
+      },
+      {
+        name: "Tailwind CSS",
+        para: "Lorem ipsum text  dummy",
+        logo: tailwind,
+      },
+      {
         name: "Figma",
         para: "Lorem ipsum text  dummy",
         logo: figma,
       },
     ],
   },
-  Projects: {
+  projects: {
     title: "Projects",
-    subtitle: "WHAT I HAVE WORKED ON",
+    subtitle: "PROJECTS I'VE DONE",
     service_content: [
       {
         title: "Task Tracker",
@@ -144,30 +156,30 @@ export const content = {
       },
     ],
   },
-  Projects2: {
-    title: "Projects",
-    subtitle: "MY CREATION",
-    image: person_project,
-    project_content: [
-      {
-        title: "Gym Website",
-        image: project1,
-      },
-      {
-        title: "Social Media web",
-        image: project2,
-      },
-      {
-        title: "Creative Website",
-        image: project3,
-      },
-    ],
-  },
-  Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
-    testimonials_content: [],
-  },
+  // Projects2: {
+  //   title: "Projects",
+  //   subtitle: "MY CREATION",
+  //   image: person_project,
+  //   project_content: [
+  //     {
+  //       title: "Gym Website",
+  //       image: project1,
+  //     },
+  //     {
+  //       title: "Social Media web",
+  //       image: project2,
+  //     },
+  //     {
+  //       title: "Creative Website",
+  //       image: project3,
+  //     },
+  //   ],
+  // },
+  // Testimonials: {
+  //   title: "Testimonials",
+  //   subtitle: "MY CLIENT REVIEWS",
+  //   testimonials_content: [],
+  // },
   // Hireme: {
   //   title: "Hire Me",
   //   subtitle: "FOR YOUR PROJECTS",
@@ -178,7 +190,7 @@ export const content = {
   // },
   Contact: {
     title: "Contact Me",
-    subtitle: "GET IN TOUCH",
+    subtitle: "GET IN TOUCH?",
     social_media: [
       {
         text: "kiplangatmike1938@gmail.com",

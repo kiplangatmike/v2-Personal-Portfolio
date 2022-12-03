@@ -20,7 +20,7 @@ const Hero = () => {
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-center">
-            <button className="btn">{hero.btnText}</button>
+            <a href="https://docs.google.com/document/d/1WVmM9mj3KWqKQFO2t1bz7BMiM9Iu8KwOfmxsnq-L3gk/edit" target="_blank"><button className="btn hover:bg-dark_blue hover:text-white">{hero.btnText}</button></a>
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
