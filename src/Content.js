@@ -10,6 +10,10 @@ import c from "./assets/images/Skills/c.png";
 import tailwind from "./assets/images/Skills/tailwind-css-icon.png";
 import flutter from "./assets/images/Skills/flutter.png";
 
+import reddit from "./assets/images/Projects/booking.png";
+import tracker from "./assets/images/Projects/tracker.png";
+import house from "./assets/images/Projects/house.png";
+
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
@@ -22,12 +26,13 @@ import { GrMail } from "react-icons/gr";
 import { FiGithub } from "react-icons/fi";
 import { MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
+import { BsTwitter } from "react-icons/bs";
 import { FiHome } from "react-icons/fi";
 import { BiUser } from "react-icons/bi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { RiServiceLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
-
+import { HiHome } from "react-icons/hi";
 export const content = {
   nav: [
     {
@@ -71,7 +76,7 @@ export const content = {
   },
   skills: {
     title: "Skills",
-    subtitle: "MY SKILLS",
+    // subtitle: "MY SKILLS",
     skills_content: [
       {
         name: "JavaScript",
@@ -110,28 +115,28 @@ export const content = {
   projects: {
     title: "Projects",
     icon: FiGithub,
-    subtitle: "PROJECTS I'VE DONE",
+    // subtitle: "PROJECTS I'VE DONE",
     service_content: [
       {
         title: "Task Tracker",
         para: "This is an application that keeps track of activities that you are doing, the ones you are done with and the ones you are yet to finish",
-        logo: services_logo1,
+        logo: tracker,
       },
       {
         title: "Find Your House App",
         para: "This is an application that links agents and home owners individuals looking for house to rent or buy.",
-        logo: services_logo3,
+        logo: house,
       },
       {
         title: "Reddit Clone",
         para: "A simple reddit clone app made using Node JS and React",
-        logo: services_logo2,
+        logo: reddit,
       },
     ],
   },
   services: {
     title: "Services",
-    subtitle: "WHAT I OFFER",
+    // subtitle: "WHAT I OFFER",
     service_content: [
       {
         title: "Web Development",
@@ -144,7 +149,7 @@ export const content = {
         logo: services_logo4,
       },
       {
-        title: "ui Designing",
+        title: "UI Designing",
         para: "",
         logo: services_logo5,
       },
@@ -184,7 +189,7 @@ export const content = {
   // },
   Contact: {
     title: "Contact Me",
-    subtitle: "GET IN TOUCH?",
+    // subtitle: "GET IN TOUCH?",
     social_media: [
       {
         text: "kiplangatmike1938@gmail.com",
@@ -195,6 +200,11 @@ export const content = {
         text: "nyolmo_mike",
         icon: BsInstagram,
         link: "https://www.instagram.com/nyolmo_mike/",
+      },
+      {
+        text: "nyolmo_",
+        icon: BsTwitter,
+        link: "https://twitter.com/nyolmo_",
       },
       {
         text: "+254 713 336 340",

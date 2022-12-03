@@ -4,7 +4,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="overflow-hiddens">
-      <div className="min-h-[40%] relative flex md:flex-row flex-col-reverse md:items-end justify-left items-left">
+      <div className="min-h-[40%] relative flex md:flex-row flex-col md:items-end justify-left items-left">
         <div
           data-aos="slide-left"
           data-aos-delay="1500"

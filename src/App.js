@@ -35,7 +35,7 @@ const App = () => {
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3 font-bold">MIKE KIPLANGAT</h6>
-        <p>All CopyRight Reserved 2022</p>
+        <p>@2022</p>
       </footer>
     </div>
   );

@@ -31,19 +31,23 @@ const Projects2 = () => {
         <div>
           <div className="flex gap-5 justify-between flex-wrap group">
             {projects.service_content.map((content, i) => (
-              <div className="min-w-[14rem] duration-300 cursor-pointe rounded-xl text-center bg-bg_light_primary p-6 flex-1 group-hover:blur-sm hover:!blur-none">
-                <img src={content.logo} alt="..." className="mx-auto" />
-                <h6 className="my-3">{content.title}</h6>
-                <p className="leading-7">{content.para}</p>
+              <div className="min-w-[14rem] duration-300 cursor-pointe rounded-xl text-center bg-bg_light_primary p-6 flex-1">
                 <div
-                  onClick={() => { window.open("https://github.com/kiplangatmike?tab=repositories", "_blank");
+                  onClick={() => {
+                    window.open(
+                      "https://github.com/kiplangatmike?tab=repositories",
+                      "_blank"
+                    );
                     setSelectSkill(projects);
                     openModal();
                   }}
-                  className="text-xl absolute top-4  left-4 bg-dark_blue p-1 rounded hover:scale-125 text-white"
+                  className="text-xl absolute ml-0.1 bg-dark_blue p-1 rounded hover:scale-125 text-white "
                 >
                   {createElement(projects.icon)}
                 </div>
+                <img src={content.logo} alt="..." className="mx-auto h-12" />
+                <h6 className="my-3 ">{content.title}</h6>
+                <p className="leading-7">{content.para}</p>
               </div>
             ))}
           </div>
