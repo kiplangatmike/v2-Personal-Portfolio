@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+// import Hero_person from "./assets/images/Hero/person.png";
 
 import js from "./assets/images/Skills/js.png";
 import figma from "./assets/images/Skills/figma.png";
@@ -10,6 +10,7 @@ import c from "./assets/images/Skills/c.png";
 import tailwind from "./assets/images/Skills/tailwind-css-icon.png";
 import flutter from "./assets/images/Skills/flutter.png";
 
+import movie_app from "./assets/images/Projects/movie_app.png"
 import reddit from "./assets/images/Projects/booking.png";
 import tracker from "./assets/images/Projects/tracker.png";
 import house from "./assets/images/Projects/house.png";
@@ -128,9 +129,9 @@ export const content = {
         logo: house,
       },
       {
-        title: "Reddit Clone",
-        para: "A simple reddit clone app made using Node JS and React",
-        logo: reddit,
+        title: "Movie App",
+        para: "This is a website that i'm using open source API to fetch data of movies that are popular and those that are trending",
+        logo: movie_app,
       },
     ],
   },

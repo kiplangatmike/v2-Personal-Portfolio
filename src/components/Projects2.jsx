@@ -45,7 +45,7 @@ const Projects2 = () => {
                 >
                   {createElement(projects.icon)}
                 </div>
-                <img src={content.logo} alt="..." className="mx-auto h-12" />
+                <a href="https://movie-app-psi-pied.vercel.app/" ><img src={content.logo} alt="..." className="mx-auto h-24 rounded-xl" /></a>
                 <h6 className="my-3 ">{content.title}</h6>
                 <p className="leading-7">{content.para}</p>
               </div>
