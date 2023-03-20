@@ -25,7 +25,7 @@ const Hero = () => {
           <br />
           <div className="flex justify-center" data-aos-delay="1000">
             <a
-              href="https://docs.google.com/document/d/1WVmM9mj3KWqKQFO2t1bz7BMiM9Iu8KwOfmxsnq-L3gk/edit"
+              href="https://docs.google.com/document/d/18ILr4v4Ht331FOoyAzucyck2w2F2CiOgxClRBN2T4GA/edit"
               target="_blank"
             >
               <button className="btn hover:bg-dark_blue hover:text-white">
