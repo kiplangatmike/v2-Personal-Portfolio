@@ -23,15 +23,12 @@ const App = () => {
   }, []);
 
   return (
-    <div className="">
+    <div >
       <Navbar />
       <Hero />
       <Skills />
       <Projects2 />
       <Services />
-      
-      {/* <Testimonials /> */}
-      {/* <HireMe /> */}
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3 font-bold">MIKE KIPLANGAT</h6>

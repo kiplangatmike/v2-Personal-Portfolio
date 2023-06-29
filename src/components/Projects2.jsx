@@ -41,7 +41,7 @@ const Projects2 = () => {
                     setSelectSkill(projects);
                     openModal();
                   }}
-                  className="text-xl absolute ml-0.1 bg-dark_blue p-1 rounded hover:scale-125 text-white "
+                  className="text-xl absolute ml-0.1 bg-dark_blue p-1 rounded hover:scale-125 text-white duration-300"
                 >
                   {createElement(projects.icon)}
                 </div>

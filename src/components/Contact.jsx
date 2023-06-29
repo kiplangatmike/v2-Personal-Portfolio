@@ -69,7 +69,7 @@ const Contact = () => {
               placeholder="Message"
               className="border border-white placeholder-white p-3 rounded"
             ></textarea>
-            <button className="btn self-start bg-white text-dark_primary hover:bg-dark_blue hover:text-white">
+            <button className="btn self-start bg-white text-dark_primary hover:bg-dark_blue hover:text-white transform-all duration-300">
               Submit
             </button>
           </form>
