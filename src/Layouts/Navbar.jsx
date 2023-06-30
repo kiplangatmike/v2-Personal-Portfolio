@@ -16,7 +16,7 @@ const Navbar = () => {
       >
         <RiMenu4Fill size={34} />
       </div>
-      <div className={`fixed z-[999] items-center ${
+      <div className={`fixed z-[999] items-center top-8 ${
             showMenu ? "md:top-8" : "top-[-100%]"
           }`}>
         <nav

@@ -32,7 +32,7 @@ const App = () => {
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3 font-bold">MIKE KIPLANGAT</h6>
-        <p>@2022</p>
+        <p>@2023</p>
       </footer>
     </div>
   );
