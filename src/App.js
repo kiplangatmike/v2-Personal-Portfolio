@@ -12,6 +12,7 @@ import Testimonials from "./components/Testimonials"
 import HireMe from "./components/HireMe";
 import Contact from "./components/Contact";
 import Projects2 from "./components/Projects2";
+import Footer from "./components/footer";
 
 const App = () => {
   useEffect(() => {
@@ -30,10 +31,7 @@ const App = () => {
       <Projects2 />
       <Services />
       <Contact />
-      <footer className="p-3 text-center">
-        <h6 className="mb-3 font-bold">MIKE KIPLANGAT</h6>
-        <p>@2023</p>
-      </footer>
+      <Footer />
     </div>
   );
 };

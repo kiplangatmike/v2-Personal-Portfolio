@@ -31,7 +31,7 @@ const Projects2 = () => {
         <div>
           <div className="flex gap-5 justify-between flex-wrap group">
             {projects.service_content.map((content, i) => (
-              <div className="min-w-[14rem] duration-300 cursor-pointe rounded-xl text-center bg-bg_light_primary p-6 flex-1">
+              <div className="relative min-w-[14rem] duration-300 cursor-pointer rounded-xl text-center bg-bg_light_primary p-6 flex-1">
                 <div
                   onClick={() => {
                     window.open(
@@ -41,7 +41,7 @@ const Projects2 = () => {
                     setSelectSkill(projects);
                     openModal();
                   }}
-                  className="text-xl absolute ml-0.1 bg-dark_blue p-1 rounded hover:scale-125 text-white duration-300"
+                  className="text-xl absolute left-2 top-2 bg-dark_blue p-1 rounded-lg hover:scale-125 text-white duration-300"
                 >
                   {createElement(projects.icon)}
                 </div>
