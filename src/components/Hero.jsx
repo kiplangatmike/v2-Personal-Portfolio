@@ -4,7 +4,7 @@ const Hero = () => {
 
   return (
     <section >
-      <div className="min-h-[40%] relative flex md:flex-row flex-col md:items-end justify-left items-left">
+      <div className="min-h-[60%] h-screen relative flex md:flex-row flex-col md:items-end justify-left items-left">
         <div
           data-aos="slide-left"
           data-aos-delay="1500"
