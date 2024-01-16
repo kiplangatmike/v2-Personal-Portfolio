@@ -12,7 +12,7 @@ import flutter from "./assets/images/Skills/flutter.png";
 
 import movie_app from "./assets/images/Projects/movie_app.png"
 import reddit from "./assets/images/Projects/booking.png";
-import tracker from "./assets/images/Projects/tracker.png";
+import talent from "./assets/images/Projects/talent_discovery.png";
 import house from "./assets/images/Projects/house.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
@@ -119,9 +119,9 @@ export const content = {
     // subtitle: "PROJECTS I'VE DONE",
     service_content: [
       {
-        title: "Task Tracker",
+        title: "Talent Discovery",
         para: "This is an application that keeps track of activities that you are doing, the ones you are done with and the ones you are yet to finish",
-        logo: tracker,
+        logo: talent,
       },
       {
         title: "Find Your House App",
